@@ -1,0 +1,50 @@
+	yang di tambahin dalam aplikasi 
+
+re design biodata health meter + umur + no hp
+penambahan toggle print dan call dan back 
+
+penjelasan di masing - masing toggle : 
+toggle kepala bagian dan scale 
+apa itu BMR 
+rumus kebutuhan lemak dll
+
+
+arrayList untuk menampilkan hasil dari health 
+
+
+toggle print untuk print hasil result health dan pain   
+exception method untuk tipe data STRING tidak bisa next jika bertipe data STRING pada Int
+
+
+logic aritmatik rumus perhitungan BMR 
+BMR laki-laki = 88.362 + (13.397 x BB kg) + (4.799 x TB cm) – (5.677 x umur tahun)
+BMR Wanita = 447.593 + (9.247 x BB kg) + (3.098 x TB cm) – (4.330 x umur tahun)
+
+logic aritmatic rumus
+protein 15% . JUMLAH KALORI     = /4
+lemak 20% . jumlah kalori       = /9
+9.2karbohidrat 65% . jumlah kalori = /4 
+
+bmi =  BB / (TB TB) 
+
+if hasil bmi = <17 - 18.5 kurus
+                19 - 25  ideal 
+               >27       gendut
+
+ String namess = isianNama.getText();
+     String tingg= isianTinggi.getText();
+             String bera = isianBerat.getText();
+      if (namess.equals(""))
+      {
+      JOptionPane.showMessageDialog(null, "ur mom give u a good name , so used it!");
+      
+              }
+      if (tingg.equals(""))
+      {
+      JOptionPane.showMessageDialog(null, "tall must be filled ");
+              }
+      if (bera.equals(""))
+      {
+      JOptionPane.showMessageDialog(null, "weight dude , OMG!");
+              } 
+
